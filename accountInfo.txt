@@ -1,0 +1,7 @@
+godaddy account:
+username : shelbyengle4432@gmail.com
+password : Shelbyenglesoftball44
+
+cPanel information:
+username : shelbyengle4432
+password : Shelbyengle44!
