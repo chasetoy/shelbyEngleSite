@@ -30,15 +30,17 @@
                 <h2>About Me</h2>
                 <br>
                 <p>
-					Welcome to my page!
-					<br>
-					Im super excited to finally have a website to share why 
-					I have the best job in the world! :)
-					<br>
-					<br>
-					My name is Shelby Engle and I was a four year starter for the
-					Georgetown College Softball team. I pitched and played first and second
-					base.
+				    <div id="form">
+                        <form action="email.php" method="post">
+                        First Name: <input type="text" name="first_name"><br>
+                        Last Name: <input type="text" name="last_name"><br>
+                        Email: <input type="text" name="email"><br>
+                        Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+                        <br>
+                        <input type="submit" name="submit" value="Submit">
+                        </form>
+                    </div>
+
                 </p>
                 <br><hr><br>
             </div>
@@ -47,9 +49,7 @@
                 <h6>Athlete of the Week</h6>
                 <div id="athlete">
                   <div id="pics">
-                <!-- Edit the text after the images/ to update pictures -->
-                  <img src="images/dj.jpg" alt="athlete">
-                  <!--Edit the above line to update the picture -->
+                  <img src="images/dj.jpg" alt="dustin johson">
                   </div>
                 </div>
                 <br>
